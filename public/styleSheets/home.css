@@ -1,0 +1,95 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("newhome.jpg");
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Georgia, serif;
+	background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+header {
+	background-image: url("suma.jpg");
+	color: #0e0d0d;
+	padding: 20px;
+}
+
+header h1 {
+	
+	margin: 0;
+	font-size: 36px;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #0e0d0d;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+section {
+	padding: 50px 0;
+}
+
+.cta {
+	font-size: 14px;
+	font-size: 0.8em;
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.cta h2 {
+	margin: 0;
+	font-size: 36px;
+}
+
+.cta p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 30px;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #333;
+	color: #fff;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.features {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.feature {
+	flex: 1;
+	margin-right: 20px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
